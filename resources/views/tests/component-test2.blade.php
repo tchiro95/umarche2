@@ -1,9 +1,10 @@
 <x-tests.app>
   <x-slot name="header">
-    ワンダー<br>
-    <div class=" border-b-2 text-red-400 font-bold">やまちちのぽ</div>
-
+    ワンダー
   </x-slot>
+  <x-test-class-base classBaseMessage="クラスメッセージ"> </x-test-class-base>
+  <div class="mb-4"></div>
+  <x-test-class-base classBaseMessage="クラスメッセージ" defaultMessage="変更しちえます" />
 
   コンポーネントテスト2
 </x-tests.app>
